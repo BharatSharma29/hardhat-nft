@@ -1,30 +1,31 @@
-<!-- # hardhat-nft
-3 contracts
-
-1. Basic NFT
-
-2. Random IPFS NFT
-- Pros: Cheap
-- Cons: Someone needs to pin our data
-
-3. Dynamic SVG NFT
-- Pros: The data is on chain!
-- Cons: MUCH more expensive!
-
-if the price of Eth is above X -> Happy face
-if the price of Eth is below X -> Frown face -->
-
 # The Ultimate NFT Repo
+
+<br/>
+<p align="center">
+<img src="./images/randomNft/pug.png" width="225" alt="NFT Pug">
+<img src="./images/dynamicNft/happy.svg" width="225" alt="NFT Happy">
+<img src="./images/randomNft/shiba-inu.png" width="225" alt="NFT Shiba">
+<img src="./images/dynamicNft/frown.svg" width="225" alt="NFT Frown">
+<img src="./images/randomNft/st-bernard.png" width="225" alt="NFT St.Bernard">
+</p>
+<br/>
 
 We go through creating 3 different kinds of NFTs.
 
 1. A Basic NFT
+
 2. IPFS Hosted NFT 
    1. That uses Randomness to generate a unique NFT
+- Pros: Cheap
+- Cons: Someone needs to pin our data
+
 3. SVG NFT (Hosted 100% on-chain) 
    1. Uses price feeds to be dynamic
     if the price of Eth is above X -> Happy face
     if the price of Eth is below X -> Frown face
+- Pros: The data is on chain!
+- Cons: MUCH more expensive!
+
 
 
 # Getting Started
